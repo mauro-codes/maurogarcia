@@ -34,3 +34,6 @@ $palette: (
 @import "imports/footer";
 @import "imports/palettes";
 @import "imports/banner";
+
+/* Support for dark mode */
+@import "dark.css";
