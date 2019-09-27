@@ -32,7 +32,7 @@
 	}
 	pre {
 		/* Change this color if you don't use violet as accent-color */
-		border-left: _palette(accent) 0.4rem solid;
+		border-left: #9371e6 0.4rem solid;
 	}
 	.post-feed .post-thumbnail img {
 		border-radius: unset;
@@ -43,7 +43,7 @@
 		border-top: none;
 		border-bottom: none;
 		/* Change this color if you don't use violet as accent-color */
-		border-left: _palette(accent) 0.4rem solid;
+		border-left: #9371e6 0.4rem solid;
 		padding: 1rem;
 	}
 	label {
