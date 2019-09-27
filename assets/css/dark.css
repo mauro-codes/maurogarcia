@@ -1,17 +1,25 @@
 @media (prefers-color-scheme: dark) {
+	/* In dark themes, elevated surfaces and components are colored using overlays. 
+	The higher a surface’s elevation, the lighter that surface becomes.*/
     .site-header.dark, .site-nav-wrap {
 		background: hsl(0, 0%, 7%);
 	}
 	body {
         background: hsl(0, 0%, 10%);
 	}
+	.site-header.dark .site-navigation, .site-nav-wrap {
+		background: none;
+	}
+	/* High-emphasis text should have an opacity of 87% */
 	h1, h2, h3, h4, h5, h6, .block-title, .site-header.dark, .site-nav-wrap {
 		color: hsla(0, 100%, 100%, 0.87);
 	}
-	body, label, a.button:hover, button:hover, pre:before, pre {
+	/* Medium emphasis text is applied at 60% */
+	body, label, a.button:hover, button:hover, pre:before, pre, blockquote {
 		color: hsla(0, 100%, 100%, 0.60);
 	}
-	a {
+	/* Links uses an opacity of 38%. */
+	a, a.read-more-link {
 		color: hsla(0, 100%, 100%, 0.38);
 	}
 	pre:before {
