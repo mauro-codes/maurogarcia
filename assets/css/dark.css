@@ -19,10 +19,11 @@
 	}
 	pre, .post-feed .post-inside {
 		border: none;
-		/* Change this color if you don't use violet as accent-color */
+		border-radius: unset;
 		background: hsl(0, 0%, 14%);
 	}
 	pre {
+		/* Change this color if you don't use violet as accent-color */
 		border-left: #9371e6 0.4rem solid;
 	}
 	.post-feed .post-thumbnail img {
